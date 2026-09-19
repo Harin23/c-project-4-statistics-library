@@ -46,7 +46,7 @@ int main() {
     // for (int i = 0; i < n; i++)
     //     printf("%d ", numbers[i]);
 
-    printf("min: %d", stats_min(numbers, n));
+    printf("min: %d", stats_min(numbers));
     printf("\nmax: %d", stats_max(numbers, n));
     printf("\nmean: %.2lf", stats_mean(numbers, n));
     printf("\nmedian: %.2lf\n", stats_median(numbers, n));
