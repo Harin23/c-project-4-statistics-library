@@ -48,8 +48,8 @@ int main() {
 
     printf("min: %d", stats_min(numbers, n));
     printf("\nmax: %d", stats_max(numbers, n));
-    printf("\nmin: %.2lf", stats_mean(numbers, n));
-    printf("\nmin: %.2lf\n", stats_median(numbers, n));
+    printf("\nmean: %.2lf", stats_mean(numbers, n));
+    printf("\nmedian: %.2lf\n", stats_median(numbers, n));
 
     return 0;
 }
