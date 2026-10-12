@@ -18,10 +18,10 @@ double stats_mean(const int *data, size_t const n) {
 };
 
 double stats_median(const int *data, const size_t n) {
+    if (n == 1) return data[0];
     size_t const mid_point = (size_t)((double) n / 2);
     if (n % 2 == 0) {
-        return data[mid_point];
+        return ((double) data[mid_point] + (double) data[mid_point + 1]) / 2;
     };
-
-    return ((double) data[mid_point] + (double) data[mid_point + 1]) / 2;
+    return data[mid_point];
 };
