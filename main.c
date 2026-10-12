@@ -22,15 +22,6 @@ int main() {
         fprintf(stderr, "No values entered\n");
         return 1;
     }
-    //
-    // for (int i = 0; i < n; i++)
-    //     printf("%d ", numbers[i]);
-
-
-
-    // printf("\n\n");
-    // for (int i = 0; i < n; i++)
-    //     printf("%d ", numbers[i]);
 
     printf("min: %d", stats_min(numbers, n));
     printf("\nmax: %d", stats_max(numbers, n));
