@@ -43,7 +43,7 @@ double stats_median(const int *data, const size_t n) {
     if (n == 1) return data[0];
     size_t const mid_point = (size_t)((double) n / 2);
     if (n % 2 == 0) {
-        return ((double) numbers[mid_point] + (double) numbers[mid_point + 1]) / 2;
+        return ((double) numbers[mid_point - 1] + (double) numbers[mid_point]) / 2;
     };
     return numbers[mid_point];
 };
