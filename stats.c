@@ -12,7 +12,7 @@ int stats_max(const int *data, size_t const n) {
 double stats_mean(const int *data, size_t const n) {
     double total = 0;
 
-    for (int i = 0; i < n; i++)
+    for (size_t i = 0; i < n; i++)
         total += data[i];
     return total/(double)n;
 };
