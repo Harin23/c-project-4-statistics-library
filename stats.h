@@ -14,5 +14,5 @@
 int stats_min(const int *data, size_t n);
 int stats_max(const int *data, size_t n);
 double stats_mean(const int *data, size_t n);
-double stats_median(int *data, size_t n);  /* may reorder data */
+double stats_median(const int *data, size_t n);
 #endif

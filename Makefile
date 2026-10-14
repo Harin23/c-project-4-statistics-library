@@ -1,7 +1,7 @@
 # ---------- Variables (easy to change) ----------
 CC      := gcc                        # compiler
 CFLAGS  := -Wall -Wextra -std=c11 -g    # warnings + language version
-TARGET  := main                  # name of the final executable
+TARGET  := stats                  # name of the final executable
 SRCS    := main.c stats.c				      # all source files
 OBJS    := $(SRCS:.c=.o)              # replace .c with .o → main.o math_utils.o
 

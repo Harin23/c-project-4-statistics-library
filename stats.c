@@ -1,6 +1,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
+#include "stats.h"
 
 int stats_min(const int *data, size_t const n) {
     int min = data[0];
